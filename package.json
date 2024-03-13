@@ -1,0 +1,44 @@
+{
+  "name": "@flaminc/eslint-plugin",
+  "version": "0.0.0-development",
+  "description": "Base Eslint configurations",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "husky",
+    "semantic-release": "semantic-release",
+    "lint": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capitnflam/eslint-plugin.git"
+  },
+  "keywords": [
+    "eslint",
+    "plugin"
+  ],
+  "author": "capitN.flam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/capitnflam/eslint-plugin/issues"
+  },
+  "homepage": "https://github.com/capitnflam/eslint-plugin#readme",
+  "devDependencies": {
+    "@commitlint/cli": "19.1.0",
+    "@commitlint/config-conventional": "19.1.0",
+    "@commitlint/types": "19.0.3",
+    "@types/eslint": "8.56.5",
+    "@types/node": "20.11.26",
+    "husky": "9.0.11",
+    "prettier": "3.2.5",
+    "semantic-release": "23.0.2",
+    "semantic-release-npm-github-publish": "1.5.5",
+    "typescript": "5.4.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
