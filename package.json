@@ -10,7 +10,8 @@
     "lint": "prettier --check .",
     "pre-commit": "lint-staged",
     "prepare": "husky",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "type-check": "tsc --pretty --noEmit"
   },
   "bugs": "https://github.com/capitnflam/eslint-plugin/issues",
   "dependencies": {
