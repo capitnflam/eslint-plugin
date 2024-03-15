@@ -2,12 +2,14 @@
   "name": "@flaminc/eslint-plugin",
   "version": "0.0.0-development",
   "description": "Base Eslint configurations",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "clean": "rimraf --glob dist flaminc-eslint-plugin-*.tgz",
     "build": "tsc",
     "prepare": "husky",
     "semantic-release": "semantic-release",
-    "lint": "prettier --check ."
+    "lint": "prettier --check .",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,16 @@
     "url": "https://github.com/capitnflam/eslint-plugin/issues"
   },
   "homepage": "https://github.com/capitnflam/eslint-plugin#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "7.2.0",
+    "@typescript-eslint/parser": "7.2.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-jsx-a11y": "6.8.0",
+    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-unicorn": "51.0.1"
+  },
   "devDependencies": {
     "@commitlint/cli": "19.1.0",
     "@commitlint/config-conventional": "19.1.0",
@@ -31,14 +43,20 @@
     "@types/node": "20.11.26",
     "husky": "9.0.11",
     "prettier": "3.2.5",
+    "rimraf": "5.0.5",
     "semantic-release": "23.0.2",
     "semantic-release-npm-github-publish": "1.5.5",
     "typescript": "5.4.2"
   },
   "peerDependencies": {
-    "eslint": ">=8"
+    "eslint": ">=8",
+    "react": ">=16.8"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "files": [
+    "package.json",
+    "dist"
+  ]
 }
