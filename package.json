@@ -1,30 +1,17 @@
 {
   "name": "@flaminc/eslint-plugin",
-  "version": "0.0.0-development",
   "description": "Base Eslint configurations",
-  "main": "dist/index.js",
-  "scripts": {
-    "clean": "rimraf --glob dist flaminc-eslint-plugin-*.tgz",
-    "build": "tsc",
-    "prepare": "husky",
-    "semantic-release": "semantic-release",
-    "lint": "prettier --check .",
-    "format": "prettier --write ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/capitnflam/eslint-plugin.git"
-  },
-  "keywords": [
-    "eslint",
-    "plugin"
-  ],
+  "version": "0.0.0-development",
   "author": "capitN.flam",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/capitnflam/eslint-plugin/issues"
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf --glob dist flaminc-eslint-plugin-*.tgz",
+    "format": "prettier --write .",
+    "lint": "prettier --check .",
+    "prepare": "husky",
+    "semantic-release": "semantic-release"
   },
-  "homepage": "https://github.com/capitnflam/eslint-plugin#readme",
+  "bugs": "https://github.com/capitnflam/eslint-plugin/issues",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "7.2.0",
     "@typescript-eslint/parser": "7.2.0",
@@ -46,8 +33,20 @@
     "rimraf": "5.0.5",
     "semantic-release": "23.0.2",
     "semantic-release-npm-github-publish": "1.5.5",
+    "syncpack": "12.3.0",
     "typescript": "5.4.2"
   },
+  "files": [
+    "package.json",
+    "dist"
+  ],
+  "homepage": "https://github.com/capitnflam/eslint-plugin#readme",
+  "keywords": [
+    "eslint",
+    "plugin"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
   "peerDependencies": {
     "eslint": ">=8",
     "react": ">=16.8"
@@ -55,8 +54,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "package.json",
-    "dist"
-  ]
+  "repository": "capitnflam/eslint-plugin"
 }
