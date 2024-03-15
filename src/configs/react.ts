@@ -8,6 +8,8 @@ export const react: ESLintConfig = {
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
+    'plugin:xss/recommended',
+    'plugin:no-unsanitized/DOM',
   ],
   settings: {
     react: {

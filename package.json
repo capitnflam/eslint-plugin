@@ -19,9 +19,11 @@
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsx-a11y": "6.8.0",
+    "eslint-plugin-no-unsanitized": "4.0.2",
     "eslint-plugin-react": "7.34.0",
     "eslint-plugin-react-hooks": "4.6.0",
-    "eslint-plugin-unicorn": "51.0.1"
+    "eslint-plugin-unicorn": "51.0.1",
+    "eslint-plugin-xss": "0.1.12"
   },
   "devDependencies": {
     "@commitlint/cli": "19.2.0",
