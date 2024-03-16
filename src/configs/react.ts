@@ -3,11 +3,12 @@ import { type ESLintConfig } from '../types'
 export const react: ESLintConfig = {
   plugins: ['@flaminc'],
   extends: [
-    'plugin:@flaminc/recommended',
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
+    'plugin:xss/recommended',
+    'plugin:no-unsanitized/DOM',
   ],
   settings: {
     react: {
