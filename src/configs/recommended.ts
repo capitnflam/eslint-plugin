@@ -9,6 +9,7 @@ export const recommended: ESLintConfig = {
     'plugin:import/recommended',
     'plugin:import/typescript',
     'plugin:unicorn/recommended',
+    'plugin:sonarjs/recommended',
     'prettier',
   ],
   parser: '@typescript-eslint/parser',
