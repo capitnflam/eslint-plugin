@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/capitnflam/eslint-plugin/compare/v1.1.0...v1.1.1) (2024-03-16)
+
+
+### fix
+
+* typescript related configs only for ts files ([#21](https://github.com/capitnflam/eslint-plugin/issues/21)) ([2505b0f](https://github.com/capitnflam/eslint-plugin/commit/2505b0fada8260bd0a4829cbff2605e26f202f99))
+
 # [1.1.0](https://github.com/capitnflam/eslint-plugin/compare/v1.0.1...v1.1.0) (2024-03-16)
 
 
