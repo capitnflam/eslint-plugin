@@ -4,6 +4,7 @@ export const recommended: ESLintConfig = {
   plugins: ['@flaminc', '@typescript-eslint'],
   extends: [
     'eslint:recommended',
+    'plugin:@eslint-community/eslint-comments/recommended',
     'plugin:@typescript-eslint/recommended-type-checked',
     'plugin:@typescript-eslint/stylistic-type-checked',
     'plugin:import/recommended',
