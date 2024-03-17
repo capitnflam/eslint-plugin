@@ -61,6 +61,11 @@
     "eslint": ">=8",
     "react": ">=16.8"
   },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
   "publishConfig": {
     "access": "public"
   },
