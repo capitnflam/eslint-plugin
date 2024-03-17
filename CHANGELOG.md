@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/capitnflam/eslint-plugin/compare/v1.1.1...v1.2.0) (2024-03-17)
+
+
+### feat
+
+* add eslint-plugin-vitest ([#24](https://github.com/capitnflam/eslint-plugin/issues/24)) ([5e85f73](https://github.com/capitnflam/eslint-plugin/commit/5e85f73db0b331d139b92e5734e5b323995a575c))
+
+
+### fix
+
+* disable n/no-missing-import on ts files ([#25](https://github.com/capitnflam/eslint-plugin/issues/25)) ([e4b8cff](https://github.com/capitnflam/eslint-plugin/commit/e4b8cffdfef0f07fe736aba5cfed4b4857eb6f37))
+* make react an optional peer dep ([#23](https://github.com/capitnflam/eslint-plugin/issues/23)) ([b030d4b](https://github.com/capitnflam/eslint-plugin/commit/b030d4b3ee7e35aa694e0d7c84142c368651d41d))
+
 ## [1.1.1](https://github.com/capitnflam/eslint-plugin/compare/v1.1.0...v1.1.1) (2024-03-16)
 
 
