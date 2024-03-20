@@ -43,7 +43,6 @@
     "prettier": "3.2.5",
     "rimraf": "5.0.5",
     "semantic-release": "23.0.3",
-    "semantic-release-npm-github-publish": "1.5.5",
     "syncpack": "12.3.0",
     "typescript": "5.4.2"
   },
