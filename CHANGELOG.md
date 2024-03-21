@@ -1,3 +1,16 @@
+# [1.3.0](https://github.com/capitnflam/eslint-plugin/compare/v1.2.0...v1.3.0) (2024-03-21)
+
+
+### chore
+
+* **deps:** remove semantic-release-npm-github-publish ([#28](https://github.com/capitnflam/eslint-plugin/issues/28)) ([381cfd4](https://github.com/capitnflam/eslint-plugin/commit/381cfd4123772f9c0735e8c1085a3dd2c77c50d7))
+
+
+### feat
+
+* **ci:** use common release config ([#27](https://github.com/capitnflam/eslint-plugin/issues/27)) ([f7dd8bb](https://github.com/capitnflam/eslint-plugin/commit/f7dd8bb5a93a99ebd674b5d6d4a22fabdb6a1833))
+* **recommended:** disable some rules ([#29](https://github.com/capitnflam/eslint-plugin/issues/29)) ([ddbf60e](https://github.com/capitnflam/eslint-plugin/commit/ddbf60e30f4f180d2e26c89f39d96a7468a046ea))
+
 # [1.2.0](https://github.com/capitnflam/eslint-plugin/compare/v1.1.1...v1.2.0) (2024-03-17)
 
 
