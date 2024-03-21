@@ -43,6 +43,10 @@ export const recommended: ESLintConfig = {
         warnOnUnassignedImports: true,
       },
     ],
+    'unicorn/no-array-reduce': 'off',
+    'unicorn/no-null': 'off',
+    'unicorn/prefer-top-level-await': 'off',
+    'unicorn/prefer-string-replace-all': 'off',
   },
   overrides: [
     {
@@ -61,6 +65,12 @@ export const recommended: ESLintConfig = {
         'import/parsers': {
           '@typescript-eslint/parser': ['.ts', '.tsx'],
         },
+      },
+    },
+    {
+      files: ['*.js'],
+      rules: {
+        'unicorn/prefer-module': 'off',
       },
     },
   ],
