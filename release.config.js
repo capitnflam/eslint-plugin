@@ -2,6 +2,6 @@
  * @type {import('semantic-release').Options}
  */
 module.exports = {
-  extends: ['semantic-release-npm-github-publish'],
+  extends: ['@flaminc/semantic-release-configs/npm-github-publish'],
   branches: ['main'],
 }
