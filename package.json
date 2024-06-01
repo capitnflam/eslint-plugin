@@ -16,7 +16,7 @@
   "bugs": "https://github.com/capitnflam/eslint-plugin/issues",
   "dependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "4.1.0",
-    "@typescript-eslint/eslint-plugin": "7.2.0",
+    "@typescript-eslint/eslint-plugin": "7.11.0",
     "@typescript-eslint/parser": "7.2.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.29.1",
