@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/capitnflam/eslint-plugin/compare/v1.3.0...v1.4.0) (2024-09-28)
+
+
+### chore
+
+* **deps:** update [@flaminc](https://github.com/flaminc)/semantic-releases-configs@1.0.1 (#31) ([6bf4780](https://github.com/capitnflam/eslint-plugin/commit/6bf47808b88a23fe8eef16ca1d35266c62bbe644))
+* **deps:** update packages (#48) ([5305b71](https://github.com/capitnflam/eslint-plugin/commit/5305b71bb7e1c0b20213e27177e76daf084c2874))
+
+
+### feat
+
+* add utest prereq (#47) ([9114608](https://github.com/capitnflam/eslint-plugin/commit/91146080bab8560c1e3dd43ae22d994a2e07916e))
+
 # [1.3.0](https://github.com/capitnflam/eslint-plugin/compare/v1.2.0...v1.3.0) (2024-03-21)
 
 
