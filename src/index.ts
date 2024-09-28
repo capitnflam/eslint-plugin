@@ -18,6 +18,7 @@ const plugin: ESLint.Plugin = {
     name,
     version,
   },
+  rules: {},
 }
 
 module.exports = plugin
