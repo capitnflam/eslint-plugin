@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/capitnflam/eslint-plugin/compare/v1.4.0...v1.5.0) (2024-10-01)
+
+
+### feat
+
+* **recommended:** use sonar legacy config (#50) ([d7844db](https://github.com/capitnflam/eslint-plugin/commit/d7844dbe39b7045c763fba975379f576f87afe3b))
+
 # [1.4.0](https://github.com/capitnflam/eslint-plugin/compare/v1.3.0...v1.4.0) (2024-09-28)
 
 
