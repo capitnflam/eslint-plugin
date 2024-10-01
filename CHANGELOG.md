@@ -1,3 +1,15 @@
+# [1.6.0](https://github.com/capitnflam/eslint-plugin/compare/v1.5.0...v1.6.0) (2024-10-01)
+
+
+### feat
+
+* **recommended:** disable sonar config (#53) ([2ee2f3d](https://github.com/capitnflam/eslint-plugin/commit/2ee2f3dbd8a4be539a1cf07b79d51dcb590a6663))
+
+
+### fix
+
+* **vitest:** use vitest legacy config (#52) ([7945fc2](https://github.com/capitnflam/eslint-plugin/commit/7945fc2de4736bac03e4581984bed420f6312eee))
+
 # [1.5.0](https://github.com/capitnflam/eslint-plugin/compare/v1.4.0...v1.5.0) (2024-10-01)
 
 
