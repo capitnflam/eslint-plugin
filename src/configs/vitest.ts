@@ -6,7 +6,7 @@ export const vitest: ESLintConfig = {
     {
       files: ['**/*.spec.ts'],
       plugins: ['vitest'],
-      extends: ['plugin:vitest/recommended'],
+      extends: ['plugin:vitest/legacy-recommended'],
       rules: {
         'vitest/consistent-test-it': [
           'error',
