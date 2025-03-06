@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/capitnflam/eslint-plugin/compare/v1.6.0...v1.6.1) (2025-03-06)
+
+
+### chore
+
+* **deps:** update packages (#68) ([c00652f](https://github.com/capitnflam/eslint-plugin/commit/c00652f77ca5cc90c1496b86c41175d3b10d2802))
+
 # [1.6.0](https://github.com/capitnflam/eslint-plugin/compare/v1.5.0...v1.6.0) (2024-10-01)
 
 
