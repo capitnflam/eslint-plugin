@@ -7,7 +7,7 @@ export const recommended: ESLintConfig = {
     'plugin:@eslint-community/eslint-comments/recommended',
     'plugin:import/recommended',
     'plugin:unicorn/recommended',
-    // 'plugin:sonarjs/recommended-legacy',
+    'plugin:sonarjs/recommended-legacy',
     'plugin:security/recommended-legacy',
     'prettier',
   ],
