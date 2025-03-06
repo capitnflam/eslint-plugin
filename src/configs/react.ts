@@ -8,7 +8,7 @@ export const react: ESLintConfig = {
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:xss/recommended',
-    'plugin:no-unsanitized/DOM',
+    'plugin:no-unsanitized/recommended-legacy',
   ],
   settings: {
     react: {
