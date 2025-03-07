@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/capitnflam/eslint-plugin/compare/v1.6.1...v1.7.0) (2025-03-07)
+
+
+### chore
+
+* **deps:** update no-unsanitized to recommended-legacy (#70) ([917cdde](https://github.com/capitnflam/eslint-plugin/commit/917cdde79dcd11477dcc6d6e3cbbc15fc43f84ce))
+
+
+### feat
+
+* **recommended:** delete sonarjs deps (#71) ([8319f3d](https://github.com/capitnflam/eslint-plugin/commit/8319f3d3ea76fbdadd61be43f0019e0bee880dfd))
+
 ## [1.6.1](https://github.com/capitnflam/eslint-plugin/compare/v1.6.0...v1.6.1) (2025-03-06)
 
 
