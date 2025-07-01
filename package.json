@@ -40,7 +40,7 @@
     "@commitlint/types": "19.5.0",
     "@flaminc/semantic-release-configs": "1.0.2",
     "@types/eslint": "9.6.1",
-    "@types/node": "22.13.9",
+    "@types/node": "24.0.8",
     "@typescript-eslint/rule-tester": "8.26.0",
     "husky": "9.1.7",
     "lint-staged": "15.4.3",
